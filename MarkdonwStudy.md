@@ -182,12 +182,58 @@
             [yahoo]:  http://search.yahoo.com/  "Yahoo Search"
             [msn]:    http://search.msn.com/    "MSN Search"
 
+8. **强调**
+    
+    _Markdown使用性星号(\*)和底线(\_)作为标记强调字词的符号_  
+    _两端被一个\*或\_包围的单词会被转换成斜体_  
+    _两端被两个\*或\_包围的单词会被转换成**粗体**_  
+    _*或\_的两端不能有空白_  
+    _用什么符号就以什么符号结尾_
 
+        示例
+        *斜体*
+        _斜体_
+        **粗体**
+        __粗体__
 
+9. **代码**
+    
+    _如果要标记一段行内代码,可以用反引号**(`)**把它包起来_  
+    _用多个反引号来开启和结束代码区段_
 
+    行内`代`码  
+    ``段落代码``  
+    ``包含`反引号``
+    ``包含 `两个反引号` `` 
+    ``<特殊符号&>``
 
+        示例:
+	
+        ``段落代码``  
+        ``包含`反引号``
+        ``包含 `两个反引号` `` 
+        ``<特殊符号&>``
 
+10. **图片**
+    _Markdown使用一种和链接很相似的语法来标记图片_  
+    _允许两种样式:行内式和参考式_  
 
+    行内式的图片语法:
+    
+   ![Overload 仓助](http://img4.duitang.com/uploads/item/201508/19/20150819131018_vYPyR.thumb.224_0.png "森林贤王") 
+      
+        示例
+          ![Overload 仓助](http://img4.duitang.com/uploads/item/201508/19/20150819131018_vYPyR.thumb.224_0.png) 
+          ![Overload 仓助](http://img4.duitang.com/uploads/item/201508/19/20150819131018_vYPyR.thumb.224_0.png "森林贤王") 
 
+   参考式语法:
 
+   ![Overload 仓助][xd]  
 
+   [xd]:http://img4.duitang.com/uploads/item/201508/19/20150819131018_vYPyR.thumb.224_0.png "森林贤王"
+
+        示例:
+          ![Overload 仓助][xd]  
+
+          [xd]:http://img4.duitang.com/uploads/item/201508/19/20150819131018_vYPyR.thumb.224_0.png "森林贤王"
+                    
