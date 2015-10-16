@@ -193,9 +193,7 @@ _________
 
     * 参考式
 
-        This is [baidu example][id] reference-style link.
-
-        [id]: https://www.baidu.com/ "度娘"
+       This is [baidu example][id] reference-style link.
 
             Code:
             This is [baidu example][id] reference-style link.
@@ -206,9 +204,7 @@ _________
 
     * 隐式链接标记功能
 
-        [Baidu][]
-
-        [Baidu]: http://baidu.com
+       [Baidu][]
 
             Code:
             [Baidu][]
@@ -285,12 +281,10 @@ _________
 
         ![Overload 仓助][xd]  
 
-        [xd]:http://img4.duitang.com/uploads/item/201508/19/20150819131018_vYPyR.thumb.224_0.png "森林贤王"
-
             示例:
               ![Overload 仓助][xd]  
-
               [xd]:http://img4.duitang.com/uploads/item/201508/19/20150819131018_vYPyR.thumb.224_0.png "森林贤王"
+
 11. 转义
     
     _使用反斜杠来插入一些在语法中有其它意义的符号,如\*_
@@ -309,3 +303,7 @@ _________
     .   英文句点
     !   惊叹号
     ```
+
+[id]: https://www.baidu.com/ "度娘"
+[xd]:http://img4.duitang.com/uploads/item/201508/19/20150819131018_vYPyR.thumb.224_0.png "森林贤王"
+[Baidu]: http://baidu.com
