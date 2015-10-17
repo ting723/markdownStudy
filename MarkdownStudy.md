@@ -16,7 +16,8 @@ Markdown 基础语法
     * [代码](#code)
     * [图片](#image)
     * [转义](#transfer)
-
+* 参考
+    * [参考](#ref)
 _________
 
 1. **标题**<a id="title"></a>
@@ -304,6 +305,10 @@ _________
     !   惊叹号
     ```
 
+12. 参考<a id="ref"></a>
+    本文主要参考自 http://wowubuntu.com/markdown/#code
+
 [id]: https://www.baidu.com/ "度娘"
 [xd]:http://img4.duitang.com/uploads/item/201508/19/20150819131018_vYPyR.thumb.224_0.png "森林贤王"
 [Baidu]: http://baidu.com
+
