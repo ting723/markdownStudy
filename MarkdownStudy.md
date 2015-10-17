@@ -307,7 +307,7 @@ _________
     ```
 
 12. 参考<a id="ref"></a>  
-    本文主要参考自 **http://wowubuntu.com/markdown/#code**
+    本文主要参考自   **http://wowubuntu.com/markdown/**
 
 [id]: https://www.baidu.com/ "度娘"
 [xd]:http://img4.duitang.com/uploads/item/201508/19/20150819131018_vYPyR.thumb.224_0.png "森林贤王"
