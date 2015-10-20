@@ -41,13 +41,13 @@
   	 }
   	 ```
 
-  效果:
+   效果:
   
-  ```javascript
-  function test() {
-    console.log("notice the blank line before this function?");
-  }
-  ```
+    ```javascript
+      function test() {
+        console.log("notice the blank line before this function?");
+      }
+    ```
 5. 支持表格
   * 基本:  
     示例：
@@ -60,14 +60,14 @@
     
     效果:
     
-    
-First Header | Second Header
--------------|--------------
-Content Cell | Content Cell
-Content Cell | Content Cell
+    First Header | Second Header
+    -------------|--------------
+    Content Cell | Content Cell
+    Content Cell | Content Cell
     
 
   * 可以在两边都加竖线:
+
     示例:
     
     ```
@@ -75,16 +75,17 @@ Content Cell | Content Cell
     | ------------- | ------------- |  
     | Content Cell  | Content Cell  |  
     | Content Cell  | Content Cell  |  
-
     ```
-   效果:
+    
+    效果:
   
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+    | First Header  | Second Header |
+    | ------------- | ------------- |
+    | Content Cell  | Content Cell  |
+    | Content Cell  | Content Cell  |
 
   * 可以不对齐:
+
     示例:  
 
     ```
@@ -93,15 +94,16 @@ Content Cell | Content Cell
     | Help      | ~~Display the~~ help window.|   
     | Close     | _Closes_ a window     |   
     ```
+
     效果:
 
-| Name | Description          |
-| ------------- | ----------- |
-| Help      | ~~Display the~~ help window.|
-| Close     | _Closes_ a window     |
-
+    | Name | Description          |
+    | ------------- | ----------- |
+    | Help      | ~~Display the~~ help window.|
+    | Close     | _Closes_ a window     |
 
   * 可以定义表格中文字对齐方式:
+
     示例:  
     ```
     | Left-Aligned  | Center Aligned  | Right Aligned |  
@@ -110,10 +112,111 @@ Content Cell | Content Cell
     | col 2 is      | centered        |   $12 |  
     | zebra stripes | are neat        |    $1 |  
     ```
+
     效果:  
     
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+    | Left-Aligned  | Center Aligned  | Right Aligned |
+    | :------------ |:---------------:| -----:|
+    | col 3 is      | some wordy text | $1600 |
+    | col 2 is      | centered        |   $12 |
+    | zebra stripes | are neat        |    $1 |
+
+  * 支持在表格中嵌入图片
+    示例:  
+    ```
+    | 图片|描述|
+    | ------------ |---------------|
+    | http://img4.duitang.com/uploads/item/201508/19/20150819131018_vYPyR.thumb.224_0.png  | Overload 森林贤王——仓助        |
+    ```
+
+    效果:  
+    
+    | 图片|描述|
+    | ------------ |---------------|
+    |![仓助](http://img4.duitang.com/uploads/item/201508/19/20150819131018_vYPyR.thumb.224_0.png) | Overload 森林贤王——仓助        |
+
+6. Task列表
+
+   *GFM 支持把列表变成带勾选的任务列表* 
+   
+   * 基本列表
+
+    示例:
+
+    ```
+    - [ ] a task list item
+    - [ ] list syntax required
+    - [ ] normal **formatting**, @mentions, #1234 refs
+    - [ ] incomplete
+    - [x] commplete
+    ```
+
+    效果:
+
+    - [ ] a task list item
+    - [ ] list syntax required
+    - [ ] normal **formatting**, @mentions, #1234 refs
+    - [ ] incomplete
+    - [x] commplete
+
+    * 嵌套列表
+
+    示例2:
+
+    ```
+    - [ ] a bigger project
+      - [ ] first subtask #1234
+      - [ ] follow up subtask #4321
+      - [ ] final subtask cc @mention
+    - [ ] a separate task
+    ```
+
+    效果:
+    - [ ] a bigger project
+      - [ ] first subtask #1234
+      - [ ] follow up subtask #4321
+      - [ ] final subtask cc @mention
+    - [ ] a separate task
+
+
+7. 引用
+    
+    *自动链接类型*
+
+    示例:
+    ```
+    * SHA: a5c3785ed8d6a35868bc169f07e40e889087fd2e
+    * User@SHA: jlord@a5c3785ed8d6a35868bc169f07e40e889087fd2e
+    * User/Repository@SHA: jlord/sheetsee.js@a5c3785ed8d6a35868bc169f07e40e889087fd2e
+    * #Num: #26
+    * GH-Num: GH-26
+    * User#Num: jlord#26
+    * User/Repository#Num: jlord/sheetsee.js#26
+    ```
+    
+    效果:
+    * SHA: a5c3785ed8d6a35868bc169f07e40e889087fd2e
+    * User@SHA: jlord@a5c3785ed8d6a35868bc169f07e40e889087fd2e
+    * User/Repository@SHA: jlord/sheetsee.js@a5c3785ed8d6a35868bc169f07e40e889087fd2e
+    * #Num: #26
+    * GH-Num: GH-26
+    * User#Num: jlord#26
+    * User/Repository#Num: jlord/sheetsee.js#26
+
+8. 添加表情
+    
+     *GFM支持天假emoji表情,输入不同的符号码表示不同的表情*
+
+    示例:
+
+    ```
+    :blush:
+    :joy:
+    :grinning:
+    ```
+
+    效果:
+
+    :blush:
+    :joy:
+    :grinning:
