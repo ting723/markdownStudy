@@ -35,12 +35,12 @@
 
    示例: 
   
-  	 ```javascript
-  	 function test() {
-  	 console.log("notice the blank line before this function?");
-  	 }
-  	 ```
-
+        	 ```javascript
+        	 function test() {
+        	 console.log("notice the blank line before this function?");
+        	 }
+        	 ```
+  
    效果:
   
     ```javascript
@@ -179,31 +179,7 @@
     - [ ] a separate task
 
 
-7. 引用
-    
-    *自动链接类型*
-
-    示例:
-    ```
-    * SHA: a5c3785ed8d6a35868bc169f07e40e889087fd2e
-    * User@SHA: jlord@a5c3785ed8d6a35868bc169f07e40e889087fd2e
-    * User/Repository@SHA: jlord/sheetsee.js@a5c3785ed8d6a35868bc169f07e40e889087fd2e
-    * #Num: #26
-    * GH-Num: GH-26
-    * User#Num: jlord#26
-    * User/Repository#Num: jlord/sheetsee.js#26
-    ```
-    
-    效果:
-    * SHA: a5c3785ed8d6a35868bc169f07e40e889087fd2e
-    * User@SHA: jlord@a5c3785ed8d6a35868bc169f07e40e889087fd2e
-    * User/Repository@SHA: jlord/sheetsee.js@a5c3785ed8d6a35868bc169f07e40e889087fd2e
-    * #Num: #26
-    * GH-Num: GH-26
-    * User#Num: jlord#26
-    * User/Repository#Num: jlord/sheetsee.js#26
-
-8. 添加表情
+7. 添加表情
     
      *GFM支持天假emoji表情,输入不同的符号码表示不同的表情*
 
