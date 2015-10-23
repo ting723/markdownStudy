@@ -30,7 +30,7 @@ ____________________________________
         This is an H2
         ----
 
-        **Code:**:
+        **Code:**
 
             This is an H1
             ====
@@ -55,7 +55,7 @@ ____________________________________
 
         ###### This is an H6 
 
-        **Code:**:
+        **Code:**
 
             # This is an H1
 
@@ -88,7 +88,7 @@ ____________________________________
         1. Bird
         2. McHale
 
-        **Code:**:
+        **Code:**
 
             1. Bird
             2. McHale
@@ -101,7 +101,7 @@ ____________________________________
         + Green
         * Blue
 
-        **Code:**:
+        **Code:**
         
             - Red
             + Green
@@ -205,7 +205,7 @@ ____________________________________
         
         [baidu](https://www.baidu.com/)
 
-        **Code:**:
+        **Code:**
         
             This is [baidu](http://www.baidu.com/ "度娘")
             [baidu](https://www.baidu.com/)
@@ -214,7 +214,7 @@ ____________________________________
 
        This is [baidu example][id] reference-style link.
 
-        **Code:**:
+        **Code:**
         
             This is [baidu example][id] reference-style link.
             [id]: https://www.baidu.com/ "度娘"
@@ -226,7 +226,7 @@ ____________________________________
 
        [Baidu][]
 
-        **Code:**:
+        **Code:**
         
             [Baidu][]
             [Baidu]: http://baidu.com
@@ -251,7 +251,7 @@ ____________________________________
 
         <https://www.baidu.com>
                 
-        **Code:**:
+        **Code:**
         
             <http:\\www.baidu.com>
 
@@ -286,7 +286,7 @@ ____________________________________
     ``包含 `两个反引号` `` 
     ``<特殊符号&>``
 
-    **Code:**:
+    **Code:**
 	
         ``段落代码``  
         ``包含`反引号``
